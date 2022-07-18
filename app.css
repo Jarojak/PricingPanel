@@ -41,3 +41,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #588fe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pricing-table{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 960px;
+}
